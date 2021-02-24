@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color: azure;
+            font-family: Arial;
+            padding: 20px;
+            background: #202024;
+        }
+
+        .header {
+            padding: 30px;
+            font-size: 40px;
+            text-align: center;
+            background: rgb(37, 33, 33);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h5 {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .leftcolumn {
+            float: left;
+            width: 75%;
+        }
+
+
+        .rightcolumn {
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+        }
+
+
+        .demoimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+            height: 200px;
+        }
+
+        .populerimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .aboutimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .card {
+            background-color: rgb(32, 30, 30);
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        /* 
+
+.post:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+
+
+        @media screen and (max-width: 800px) {
+
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>Mysterious BotanY</h2>
+    </div>
+
+    <div class="posts">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <img class="demoimg" src="../semester.images/vanilla-flower (1).svg" alt="">
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <img class="demoimg" src="../semester.images/vanilla-flower (1).svg" alt="">
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>About Me</h2>
+                <img class="aboutimg" style="height:280px;" src="../semester.images/IMG_20201027_215007.jpg" alt="">
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+              </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="populerimg">Image</div><br>
+                <div class="populerimg">Image</div><br>
+                <div class="populerimg">Image</div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Some text..</p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
